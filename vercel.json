@@ -5,12 +5,12 @@
   "buildCommand": "bash build.sh",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-garden-salad.vercel.app" }], "destination": "/garden-salad/$1" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-snap-onomichi.vercel.app" }], "destination": "/snap-onomichi/$1" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-sobolon.vercel.app" }], "destination": "/sobolon/$1" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-toradezi.vercel.app" }], "destination": "/toradezi/$1" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-oha.vercel.app" }], "destination": "/oha/$1" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-ravek.vercel.app" }], "destination": "/ravek/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "garden-salad.a18019.com" }], "destination": "/garden-salad/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "snap-onomichi.a18019.com" }], "destination": "/snap-onomichi/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "sobolon.a18019.com" }], "destination": "/sobolon/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "toradezi.a18019.com" }], "destination": "/toradezi/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "oha.a18019.com" }], "destination": "/oha/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "ravek.a18019.com" }], "destination": "/ravek/$1" },
     { "source": "/(.*)", "destination": "/_top/$1" }
   ]
 }
