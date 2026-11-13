@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "bash build.sh",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-garden-salad.vercel.app" }], "destination": "/garden-salad/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-snap-onomichi.vercel.app" }], "destination": "/snap-onomichi/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-sobolon.vercel.app" }], "destination": "/sobolon/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-toradezi.vercel.app" }], "destination": "/toradezi/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-oha.vercel.app" }], "destination": "/oha/$1" },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "works-ravek.vercel.app" }], "destination": "/ravek/$1" },
+    { "source": "/(.*)", "destination": "/_top/$1" }
+  ]
+}

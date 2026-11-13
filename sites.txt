@@ -1,0 +1,8 @@
+# <サイト名>|<配信するディレクトリ（リポジトリのルートなら .）>|<表示名>
+# リポジトリ: https://github.com/ibuki314/works-<サイト名>
+garden-salad|public|Garden Salad
+snap-onomichi|public|snap onomichi
+sobolon|public|sobolon
+toradezi|public|toradezi
+oha|.|OHA
+ravek|public|Ravek
